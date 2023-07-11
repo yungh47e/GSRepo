@@ -38,5 +38,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonForms>CommonForm.ФормаАвторизации</commonForms>
   <catalogs>Catalog.Пользователи</catalogs>
 </mdclass:Configuration>
