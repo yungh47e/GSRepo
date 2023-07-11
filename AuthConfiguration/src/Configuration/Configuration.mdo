@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc7efffe-0b45-420b-89e6-5c9b077f071e">
+  <name>AuthConfiguration</name>
+  <synonym>
+    <key>ru</key>
+    <value>Auth configuration</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b9aa74c8-d21b-4950-a121-aa868c770d11"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9234a5e8-0a67-475d-9ee1-5f1d86d2d543"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9ce6b535-c30c-4641-a983-05b35a77b12c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="fd5587d3-4256-44c7-82ae-53cfb43b3c73"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8c4a74f0-c970-4596-870e-23d0c1efb092"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="50a583dd-48f7-4dcb-b2cb-2ab00d6fd919"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="0a8ac670-6229-4da0-935e-760414c065bc"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="671720bb-f97c-4979-90fd-848a6ef25390">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Пользователи</catalogs>
+</mdclass:Configuration>
