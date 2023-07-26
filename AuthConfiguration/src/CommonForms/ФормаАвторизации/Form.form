@@ -317,10 +317,10 @@
     </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаКапча</name>
-      <id>48</id>
+      <id>62</id>
       <items xsi:type="form:Decoration">
         <name>Капча</name>
-        <id>57</id>
+        <id>73</id>
         <title>
           <key>ru</key>
           <value>123456</value>
@@ -332,7 +332,7 @@
         </userVisible>
         <extendedTooltip>
           <name>КапчаРасширеннаяПодсказка</name>
-          <id>59</id>
+          <id>75</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -347,7 +347,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>КапчаКонтекстноеМеню</name>
-          <id>58</id>
+          <id>74</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -361,7 +361,7 @@
         <font xsi:type="core:FontRef">
           <font>Style.ExtraLargeTextFont</font>
           <faceName>Fixedsys</faceName>
-          <height>28.0</height>
+          <height>26.0</height>
           <bold>true</bold>
           <italic>false</italic>
           <underline>true</underline>
@@ -370,18 +370,18 @@
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
           <backColor xsi:type="core:ColorDef">
-            <red>144</red>
-            <green>144</green>
-            <blue>144</blue>
+            <red>142</red>
+            <green>142</green>
+            <blue>142</blue>
           </backColor>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаВводКапчи</name>
-        <id>50</id>
+        <id>64</id>
         <items xsi:type="form:FormField">
           <name>ВводКапчи</name>
-          <id>52</id>
+          <id>66</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -393,7 +393,7 @@
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>ВводКапчиРасширеннаяПодсказка</name>
-            <id>54</id>
+            <id>68</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -408,7 +408,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ВводКапчиКонтекстноеМеню</name>
-            <id>53</id>
+            <id>67</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -432,7 +432,7 @@
         </items>
         <items xsi:type="form:Button">
           <name>ПодтвердитьКапчу</name>
-          <id>55</id>
+          <id>69</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -440,7 +440,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ПодтвердитьКапчуРасширеннаяПодсказка</name>
-            <id>56</id>
+            <id>70</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -475,7 +475,7 @@
         </title>
         <extendedTooltip>
           <name>ГруппаВводКапчиРасширеннаяПодсказка</name>
-          <id>51</id>
+          <id>65</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -498,6 +498,42 @@
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
+      <items xsi:type="form:Button">
+        <name>ОтменаКапча</name>
+        <id>71</id>
+        <title>
+          <key>ru</key>
+          <value>Отмена</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ОтменаКапчаРасширеннаяПодсказка</name>
+          <id>72</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.ОтменаКапча</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -507,11 +543,11 @@
         <key>ru</key>
         <value>Группа1</value>
       </title>
-      <width>20</width>
+      <width>25</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
         <name>ГруппаКапчаРасширеннаяПодсказка</name>
-        <id>49</id>
+        <id>63</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -526,7 +562,7 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
+        <group>HorizontalIfPossible</group>
         <behavior>Auto</behavior>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
@@ -644,6 +680,7 @@
   <verticalAlign>Center</verticalAlign>
   <autoFillCheck>true</autoFillCheck>
   <enabled>true</enabled>
+  <scale>150.0</scale>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
@@ -688,7 +725,7 @@
       <key>ru</key>
       <value>Ввод капчи</value>
     </title>
-    <id>5</id>
+    <id>6</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -757,7 +794,19 @@
       <key>ru</key>
       <value>Подтвердить капчу</value>
     </title>
-    <id>6</id>
+    <id>8</id>
+    <use>
+      <common>true</common>
+    </use>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОтменаКапча</name>
+    <title>
+      <key>ru</key>
+      <value>Отмена капча</value>
+    </title>
+    <id>9</id>
     <use>
       <common>true</common>
     </use>
