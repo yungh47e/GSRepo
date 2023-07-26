@@ -38,6 +38,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.МодульГенерацииСлучайныхСтрок</commonModules>
   <commonForms>CommonForm.ФормаАвторизации</commonForms>
   <catalogs>Catalog.Пользователи</catalogs>
 </mdclass:Configuration>
