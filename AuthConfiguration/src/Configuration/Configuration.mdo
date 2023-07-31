@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc7efffe-0b45-420b-89e6-5c9b077f071e">
-  <name>AuthConfiguration</name>
+  <name>GSConfiguration</name>
   <synonym>
     <key>ru</key>
-    <value>Auth configuration</value>
+    <value>GSConfiguration</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b9aa74c8-d21b-4950-a121-aa868c770d11"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9234a5e8-0a67-475d-9ee1-5f1d86d2d543"/>
@@ -39,6 +39,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonPictures>CommonPicture.ГенераторПароля</commonPictures>
+  <commonPictures>CommonPicture.Стоп</commonPictures>
   <commonModules>CommonModule.МодульГенерацииСлучайныхСтрок</commonModules>
   <commonForms>CommonForm.ФормаАвторизации</commonForms>
   <catalogs>Catalog.Пользователи</catalogs>
